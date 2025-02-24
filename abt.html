@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-image: url(whitebg.jpg);
+            background-size: cover;
+        }
+        a{
+            text-decoration: none;
+            padding: 10px 20px;
+            transition:  color 0.5s ease;
+        }
+        nav{
+           display: flex;
+           justify-content: center;
+           gap: 15px;
+            margin: 30px;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 30px;
+            width: fit-content;
+            
+        } 
+        
+        .edu {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; 
+}
+
+
+.b {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.edu:hover .b {
+  transform: rotateY(180deg);
+}
+
+
+.c, .d {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+
+.c{
+  background-color: transparent;
+  color: seagreen;
+}
+
+
+.d {
+  background-color: transparent;
+  color: tan;
+  transform: rotateY(180deg);
+}
+.port{
+  display: flex;
+           justify-content: center;
+           gap: 20px;
+           margin: 15px;
+            text-decoration: none;
+          
+            font-size: 20px;
+            width: fit-content;
+}
+.icons {
+           display: flex;
+           gap: 15px;
+           justify-content: center;
+           margin-top: 20px;
+           width: 100%
+        }
+        .icons a {
+            font-size: 30px;
+           color: #000;
+        }
+        .icons a:hover {
+            color: blue;
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <a href="portfolio.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+    <div class="port">
+      <div class="edu">
+        <div class="b">
+          <div class="c">
+            <h1>Education</h1>
+          </div>
+          <div class="d">
+            <p>I graduated my Secondary Education Examination(SEE) from
+                 Graded Educational Merit School(GEMS).
+                I'm currently studying my +2 in National School of Sciences(NSS)</p>
+          </div>
+        </div>
+      </div>
+    
+   
+   
+      <div class="edu">
+      <div class="b">
+        <div class="c">
+          <h1>Hobbies</h1>
+        </div>
+        <div class="d">
+          <p>
+           As a hobby I do lots of activities. Those activities  keeps me healthy 
+           mentally and physicall fit.Some of the hobbies I follow daily are:reading books
+          ,playing guitar,solving puzzle etc.
+          </p>
+        </div>
+      </div>
+    </div>
+ 
+      <div class="edu">
+        <div class="b">
+          <div class="c">
+            <h1>Skills</h1>
+          </div>
+          <div class="d">
+            <p>
+              I learned many skills till dates. Some skills were learned pratically
+              and some were by reading books. Some of the skill that I have adopted are:
+              Critical thinking,writing,problem solving,playing guitar,coding etc.
+            </p>
+                  </div>
+               </div>
+            </div>
+       </div>
+         
+       <div class="icons">
+        <a href="https://www.facebook.com/aayush.shrestha.733076" target="_blank"><i id="icon" class="fa fa-facebook"
+            ></i></a>
+            <a href="https://www.linkedin.com/in/aayush-shrestha-a43844341" target="_blank"><i id="icon" class="fa fa-linkedin"
+                ></i></a>
+                <a href="https://www.github.com/Aayush-77" target="_blank"><i id="icon" class="fa fa-github"
+                    ></i></a>
+    </div>
+</body>
+</html>
